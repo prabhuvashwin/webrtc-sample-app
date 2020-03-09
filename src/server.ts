@@ -22,7 +22,7 @@ export class Server {
     this.io = socketIO( httpServer );
 
     this.configureApp();
-    // this.configureRoutes();
+    this.configureRoutes();
     this.handleSocketConnection();
   }
 
